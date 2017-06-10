@@ -1,0 +1,25 @@
+{
+  "name": "imdb-fetch-api",
+  "version": "1.0.0",
+  "description": "An api to fetch data from imdb-api",
+  "main": "index.js",
+  "scripts": {
+    "start-dev": "nodemon index.js"
+  },
+  "keywords": [
+    "imdb",
+    "movies",
+    "action",
+    "adventure",
+    "rest"
+  ],
+  "author": "Mukesh",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.3",
+    "imdb-api": "^3.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
